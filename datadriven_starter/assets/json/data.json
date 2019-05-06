@@ -1,0 +1,92 @@
+[
+    {
+        "objID": 1,
+        "name": "Stardew Valley",
+        "cost": 14.99,
+        "timePlayed": 128,
+        "description": "You've inherited your grandfather's old farm plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your new life. Can you learn to live off the land and turn these overgrown fields into a thriving home?",
+        "image": "stardew",
+        "rating": 96
+    },
+    {
+        "objID": 2,
+        "name": "Rainbow 6 Siege",
+        "cost": 39.99,
+        "timePlayed": 329,
+        "description": "Tom Clancy's Rainbow Six Siege is the latest installment of the acclaimed first-person shooter franchise developed by the renowned Ubisoft Montreal studio.",
+        "image": "r6",
+        "rating": 81
+    },
+    {
+        "objID": 3,
+        "name": "Dark Souls II",
+        "cost": 9.99,
+        "timePlayed": 81,
+        "description": "Developed by FROM SOFTWARE, DARK SOULS™ II is the highly anticipated sequel to the gruelling 2011 breakout hit Dark Souls. The unique old-school action RPG experience captivated imaginations of gamers worldwide with incredible challenge and intense emotional reward.",
+        "image": "ds2",
+        "rating": 87
+    },
+    {
+        "objID": 4,
+        "name": "Fallout 4",
+        "cost": 29.99,
+        "timePlayed": 52,
+        "description": "Bethesda Game Studios, the award-winning creators of Fallout 3 and The Elder Scrolls V: Skyrim, welcome you to the world of Fallout 4 – their most ambitious game ever, and the next generation of open-world gaming.",
+        "image": "fo4",
+        "rating": 70
+    },
+    {
+        "objID": 5,
+        "name": "Binding of Isaac: Rebirth",
+        "cost": 14.99,
+        "timePlayed": 84,
+        "description": "The Binding of Isaac: Rebirth is a randomly generated action RPG shooter with heavy Rogue-like elements. Following Isaac on his journey players will find bizarre treasures that change Isaac’s form giving him super human abilities and enabling him to fight off droves of mysterious creatures and discover secrets.",
+        "image": "isaac",
+        "rating": 97
+    },
+    {
+        "objID": 6,
+        "name": "Slay the Spire",
+        "cost": 24.99,
+        "timePlayed": 199,
+        "description": "We fused card games and roguelikes together to make the best single player deckbuilder we could. Craft a unique deck, encounter bizarre creatures, discover relics of immense power, and Slay the Spire!",
+        "image": "spire",
+        "rating": 96
+    },
+    {
+        "objID": 7,
+        "name": "Dota 2",
+        "cost": 0,
+        "timePlayed": 2323,
+        "description": "Every day, millions of players worldwide enter battle as one of over a hundred Dota heroes. And no matter if it's their 10th hour of play or 1,000th, there's always something new to discover. With regular updates that ensure a constant evolution of gameplay, features, and heroes, Dota 2 has taken on a life of its own.",
+        "image": "dota",
+        "rating": 86
+    },
+    {
+        "objID": 8,
+        "name": "Metal Gear Solid V",
+        "cost": 19.99,
+        "timePlayed": 51,
+        "description": "Ushering in a new era for the METAL GEAR franchise with cutting-edge technology powered by the Fox Engine, METAL GEAR SOLID V: The Phantom Pain, will provide players a first-rate gaming experience as they are offered tactical freedom to carry out open-world missions.",
+        "image": "mgs",
+        "rating": 88
+    },
+    {
+        "objID": 9,
+        "name": "Hollow Knight",
+        "cost": 14.99,
+        "timePlayed": 39,
+        "description": "Forge your own path in Hollow Knight! An epic action adventure through a vast ruined kingdom of insects and heroes. Explore twisting caverns, battle tainted creatures and befriend bizarre bugs, all in a classic, hand-drawn 2D style.",
+        "image": "hollowKnight",
+        "rating": 95
+    },
+    {
+        "objID": 10,
+        "name": "Dead Cells",
+        "cost": 24.99,
+        "timePlayed": 50,
+        "description": "Dead Cells is a rogue-lite, metroidvania inspired, action-platformer. You'll explore a sprawling, ever-changing castle... assuming you’re able to fight your way past its keepers in 2D souls-lite combat. No checkpoints. Kill, die, learn, repeat.",
+        "image": "deadCells",
+        "rating": 94
+    }
+]

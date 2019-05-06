@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RWD with percentages</title>
+  <style>
+    main {
+      width: 90%;
+      margin: 0 auto;
+      font-family: Helvetica;
+    }
+    small, small a {
+      font-size: .7rem;
+      color: gray;
+    }
+    aside {
+      width: 30%;
+      margin-right: 1em;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover; 
+      display: none;
+    }
+    section {
+      background-color: #322456;
+      width: 100%;
+    }
+    aside, section {
+      height: 15.5em;
+      float: left;
+      border-radius: 5px;
+      color: #fff;
+      text-align: center;
+      margin-bottom: 1em;
+    }
+    h1 {
+      font-size: 1rem;
+      padding: 6em 0;
+    }
+    
+    @media only screen and (min-width: 31em){
+      section{
+        background-color: #184177;
+      }
+      aside{
+        background-image: url('./images/highland_park.jpg');
+        display: block;
+        width: 100%;
+        background-size: auto;
+      }
+    }
+
+    @media only screen and (min-width: 50em){
+      section{
+        background-color: #a84609;
+      }
+      aside{
+        background-image: url('./images/schoen_place.jpg');
+        background-position: center top;
+        display: block;
+        width: 100%;
+        background-size: auto;
+      }
+    }
+
+    @media only screen and (min-width: 62em){
+      section{
+        background-color: #6687ba;
+        width: calc( 70% - 1em );
+      }
+      aside{
+        background-image: url('./images/mt_hope_henry_lewis_morgan_mausoleum.jpg');
+        display: inline;
+        width: 30%;
+        background-size: auto;
+      }
+    }
+    /*
+      media query min-width breakpoints:
+        
+        31em
+          bkgd color: #184177
+          image: highland_park.jpg
+          
+        50em
+          bkgd color: #a84609
+          image: schoen_place.jpg
+          make the background image top-aligned
+          
+        62em
+          bkgd color: #6687ba
+          image: mt_hope_henry_lewis_morgan_mausoleum.jpg
+          hint: for section width, use: calc( 70% - 1em )
+    */
+  </style>
+</head>
+<body>
+  <main>
+    <aside></aside>
+    <section><h1>Winter in Rochester</h1></section>
+    <small>Photos from <a href="https://www.montanusphotography.com/nmphoto/winter-scenes/" target="_blank">MontanusPhotography.com</a>.</small>
+  </main>
+</body>
+</html>
+
